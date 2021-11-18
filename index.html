@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class = "calculator">
+        <div class="display"> 
+            <input id="out" type="text" placeholder="0">
+        </div>
+
+        <div class="operations">
+            <button class="op plus">+</button>
+            <button class="op minus">-</button>
+            <button class="op multiply">x</button>
+            <button class="op divide">÷</button>
+            <button class="op decimal">.</button>
+            <button class="op sin">sin</button>
+            <button class="op tan">tan</button>
+            <button class="op cos">cos</button>
+            <button class="op root">√</button>
+            <button class="op square">a^2</button>
+            <button class="op bracketl">(</button>
+            <button class="op bracketr">)</button>
+            <button class="op exponent">a^x</button>
+            <button class="op ln">ln</button>
+            <button class="op log">log</button>
+            <button class="op backspace">CE</button>
+            <button class="op equalto">=</button>
+            <button class="op ac" onclick="display.value=''">AC</button>
+        </div>
+
+
+        <div class="numbers">
+            <button class="n 9">9</button>
+            <button class="n 8">8</button>
+            <button class="n 7">7</button>
+            <button class="n 6">6</button>
+            <button class="n 5">5</button>
+            <button class="n 4">4</button>
+            <button class="n 3">3</button>
+            <button class="n 2">2</button>
+            <button class="n 1">1</button>
+            <button class="n 0">0</button>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
